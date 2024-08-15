@@ -27,8 +27,9 @@
 
 .cart{
     position: absolute;
-    width: 500px;
-    min-height: 770px;
+    width: auto;
+    max-width: 500px;
+    min-height: 100px;
     height:auto;
     background-color: rgb(231, 231, 231);
     z-index: 10;
