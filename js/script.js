@@ -34,7 +34,9 @@ btn1.onclick = function() {
 };
 
 btn2.onclick = function() {
+    x=0
     totalprice = 0;
+    countCart.textContent =x;
     div1.innerHTML = "";
     div2.innerHTML = totalprice;
 };
