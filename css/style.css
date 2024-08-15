@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    z-index: 4;
+}
+
+.btn{
+    transition: 0.7s;
+}
+.btn:hover{
+    opacity: 0.85;
+}
+.btn:active{
+    opacity: 0.45;
+}
+.fa-heart:hover{
+    cursor: pointer;
+    color: #a61e22;
+}
+
+.cart{
+    position: absolute;
+    width: 500px;
+    min-height: 770px;
+    height:auto;
+    background-color: rgb(231, 231, 231);
+    z-index: 10;
+    top: 0;
+    right: 0;
+    display: none;
+    font-size: medium;
+}
+.cart h3{
+    height: 50px;
+    font-size: xx-large;
+}
+.card-img-top{
+    transition:0.5s;
+}
+.card-img-top:hover{
+    transform: scale(1.050);
+}
